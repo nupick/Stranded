@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1381574628981102}
+  m_IsPrefabAsset: 1
+--- !u!1 &1381574628981102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4349371749779094}
+  - component: {fileID: 114068958797823262}
+  m_Layer: 0
+  m_Name: CursorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4349371749779094
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381574628981102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.53125, y: 23.59375, z: -9.349609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114068958797823262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381574628981102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54dc1eb20a35c9e41903cfa18d74b4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultcursortex: {fileID: 2800000, guid: 633138613b3f9844ab29ac234ffe8e01, type: 3}
+  CursorGoRight: {fileID: 2800000, guid: a96d23c28ffac5244a6a750113ed9d40, type: 3}
+  Pickable: {fileID: 2800000, guid: b051101025dfd79498cc70ba08dc3639, type: 3}
+  CursorGoLeft: {fileID: 2800000, guid: bef84e6a79571634491ca2dd22112b71, type: 3}
+  CursorGoBack: {fileID: 2800000, guid: 2365d91db6b42d74e815548bb0edf48f, type: 3}
+  CursorGoForward: {fileID: 2800000, guid: 1325696334ff9df41bd1c64b434c9b8b, type: 3}
+  Puzzle: {fileID: 2800000, guid: 5994cda44822f0c40b556a7bc74e5e83, type: 3}
+  Rotatable: {fileID: 2800000, guid: 3a3fc310bdf62f8488f442f807b42e4e, type: 3}
+  hotspot: {x: 0, y: 0}
+  cursormode: 0
+  cam: {fileID: 0}

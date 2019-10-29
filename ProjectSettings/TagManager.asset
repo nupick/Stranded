@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LeftLocation
+  - RightLocation
+  - ForwardLocation
+  - BackLocation
+  - Pickable
+  - Puzzle
+  - Inventory
+  - Usable
+  - Outside
+  - Painting
+  - Painting Slot
+  - Tangram
+  - Tangram Slot
+  - Gears
+  - Gears Slot
+  - Circuit Main
+  - Circuit Lamp
+  - RushLeft
+  - RushRight
+  - RushUp
+  - RushDown
+  - RushPiece
+  - RushFinish
+  - Fade
+  - Gears Connection
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Cameo
+  - secondary cam
+  - Third Cam
+  - Forth Cam
+  - Sky
+  - vlight
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
